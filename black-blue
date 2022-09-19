@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="lab.css">
+	<title>Document</title>
+
+<style>.list-1{
+display: flex;
+justify-content: space-between;
+}
+.color-black{
+	width: 50px;
+	height: 50px;
+	background-color: black;
+}
+.color-blue{
+	width: 50px;
+	height: 50px;
+	background-color: blue;
+}
+.color-black:hover {
+    background-color: orange; /* Цвет ссылки при наведении на нее курсора мыши */  
+   }
+   .color-blue:hover {
+    background-color: orange; /* Цвет ссылки при наведении на нее курсора мыши */  
+   }
+   </style>
+
+</head>
+<body>
+	
+<div class="list-1">
+	<div class="color-black">
+		1
+	</div>
+
+<div class="color-blue">2</div>
+	
+
+	<div class="color-black">
+		3
+	</div>
+
+<div class="color-blue">4</div>
+
+
+
+
+<div class="color-black">
+		5
+	</div>
+</div>
+
+
+</body>
+</html>
